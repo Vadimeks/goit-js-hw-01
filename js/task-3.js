@@ -1,6 +1,6 @@
 // Задача 3. Ширина елемента
 function getElementWidth(content, padding, border) {
-return Number.parseInt(content) + 2 * Number.parseInt(padding) + 2 * Number.parseInt(border);
+return Number.parseFloat(content) + 2 * parseFloat(padding) + 2 * Number.parseFloat(border);
 };
 console.log(getElementWidth("50px", "8px", "4px")); // 74
 console.log(getElementWidth("60px", "12px", "8.5px")); // 101
